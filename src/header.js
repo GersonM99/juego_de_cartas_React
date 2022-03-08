@@ -7,7 +7,8 @@ export default class Header extends Component {
             <header>
                 <div className='titulo'></div>
                 <div>
-                <button className='"boton-reiniciar'>
+                <button className='"boton-reiniciar'
+                onClick={() => alert("cocha prosti")}>
                     reiniciar
                 </button>
             </div>
